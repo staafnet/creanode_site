@@ -1,0 +1,9 @@
+{
+    "name": "creanode/studio",
+    "description": "CreaNode Studio PHP application",
+    "type": "project",
+    "require": {
+    "php": ">=8.0",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360">
+  <rect width="600" height="360" rx="24" fill="#0a1328" />
+  <rect x="60" y="70" width="480" height="220" rx="20" fill="#111d38" />
+  <polyline points="90,250 170,180 240,210 320,140 410,200 470,160 510,190" fill="none" stroke="#66d8ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="80" y="120" font-family="Inter, sans-serif" font-size="28" fill="#f8faff">Commerce Plus</text>
+  <text x="80" y="150" font-family="Inter, sans-serif" font-size="18" fill="#a9bbff">Sprzedaż, fulfillment, raporty KPI</text>
+</svg>

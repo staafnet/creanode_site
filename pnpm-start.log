@@ -1,0 +1,537 @@
+
+> creanode_site@0.1.0 start /home/radek/projekty/creanode_site
+> next start
+
+   ▲ Next.js 16.0.1
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.14:3000
+
+ ✓ Starting...
+ ✓ Ready in 751ms
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+Cannot load product Error [PrismaClientValidationError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  clientVersion: '6.19.0'
+}
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+Cannot load product Error [PrismaClientValidationError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  clientVersion: '6.19.0'
+}
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+Cannot load product Error [PrismaClientValidationError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  clientVersion: '6.19.0'
+}
+
+thread 'tokio-runtime-worker' panicked at query-engine/core/src/query_document/selection.rs:217:51:
+called `Option::unwrap()` on a `None` value
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+Cannot load product Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async i (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:4169) {
+  code: 'GenericFailure',
+  meta: [Object],
+  clientVersion: '6.19.0'
+}
+Cannot load product Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  code: 'GenericFailure',
+  meta: [Object],
+  clientVersion: '6.19.0'
+}
+
+thread 'tokio-runtime-worker' panicked at query-engine/core/src/query_document/selection.rs:217:51:
+called `Option::unwrap()` on a `None` value
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+Cannot load product Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async i (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:4169) {
+  code: 'GenericFailure',
+  meta: [Object],
+  clientVersion: '6.19.0'
+}
+Cannot load product Error [PrismaClientKnownRequestError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+
+PANIC: called `Option::unwrap()` on a `None` value
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  code: 'GenericFailure',
+  meta: [Object],
+  clientVersion: '6.19.0'
+}
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+Cannot load product Error [PrismaClientValidationError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  clientVersion: '6.19.0'
+}
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+Cannot load product Error [PrismaClientValidationError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  clientVersion: '6.19.0'
+}
+prisma:error 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+Cannot load product Error [PrismaClientValidationError]: 
+Invalid `prisma.product.findUnique()` invocation:
+
+{
+  where: {
+    slug: undefined,
+?   id?: String,
+?   AND?: ProductWhereInput | ProductWhereInput[],
+?   OR?: ProductWhereInput[],
+?   NOT?: ProductWhereInput | ProductWhereInput[],
+?   name?: StringFilter | String,
+?   description?: StringFilter | String,
+?   priceCents?: IntFilter | Int,
+?   stock?: IntFilter | Int,
+?   active?: BoolFilter | Boolean,
+?   categoryId?: StringNullableFilter | String | Null,
+?   createdAt?: DateTimeFilter | DateTime,
+?   updatedAt?: DateTimeFilter | DateTime,
+?   seoTitle?: StringNullableFilter | String | Null,
+?   seoDescription?: StringNullableFilter | String | Null,
+?   category?: CategoryNullableScalarRelationFilter | CategoryWhereInput | Null,
+?   images?: ProductImageListRelationFilter,
+?   orderItems?: OrderItemListRelationFilter,
+?   cartItems?: CartItemListRelationFilter
+  },
+  include: {
+    images: {
+      orderBy: {
+        sortOrder: "asc"
+      }
+    },
+    category: true
+  }
+}
+
+Argument `where` of type ProductWhereUniqueInput needs at least one of `id` or `slug` arguments. Available options are marked with ?.
+    at async g (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3769)
+    at async Module.h (.next/server/chunks/ssr/[root-of-the-server]__ba1d47b4._.js:1:3974) {
+  clientVersion: '6.19.0'
+}
